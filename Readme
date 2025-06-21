@@ -1,0 +1,26 @@
+Generación de Base de Datos Sintética con Momentos Exactos
+Aquí no se estima nada. Se construyen datos con geometría definida.
+
+📌 Propósito
+Este script produce una base de datos simulada donde el usuario especifica las propiedades estadísticas fundamentales de las variables involucradas (x y u). A partir de esos parámetros, se generan observaciones con media y desviación estándar exactas, sin estimar ningún modelo sobre ellas.
+
+⚙️ Parámetros configurables
+| Parámetro | Descripción | Valor por defecto | 
+| N | Tamaño muestral | 100 | 
+| μₓ (mu_x) | Media deseada de x | 20 | 
+| σₓ (sigma_x) | Desvío estándar deseado de x | 15 | 
+| σₑ (sigma_e) | Desvío del término u (error) | 10 | 
+
+
+
+🧠 Metodología
+- Se genera una serie x ajustando una normal estándar para tener media μₓ y desvío σₓ exactos.
+- Se genera una serie u calibrada para tener media cero y desvío σₑ exacto.
+- Ambas series están listas para ser utilizadas en simulaciones, diseños experimentales o construcción de respuestas sintéticas.
+Este módulo no aplica ningún modelo. Su propósito es proveer datos controlados listos para análisis posteriores.
+
+
+
+
+
+
