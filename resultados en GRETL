@@ -14,7 +14,7 @@ Se ha generado la serie z (ID 2)
 # Estandarizamos para que z tenga media 0 y sd 1 exactamente
 ? series z_centrada = 
 Se ha generado la serie z_centrada (ID 3)
-? series z_esc = z_centrada / sd(z_centrada)
+? series z_esc = 
 Se ha generado la serie z_esc (ID 4)
 # Transformamos para que x tenga media 20 y sd 15 exactamente
 ? series x = 
