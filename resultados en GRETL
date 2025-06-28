@@ -9,15 +9,15 @@ rango de observaciones: 1 a 100
 Rango de datos completo: 1 - 100 (n = 100)
 
 # Generamos 100 valores estandarizados (media 0, sd 1)
-? series z = normal()
+? series z = 
 Se ha generado la serie z (ID 2)
 # Estandarizamos para que z tenga media 0 y sd 1 exactamente
-? series z_centrada = z - mean(z)
+? series z_centrada = 
 Se ha generado la serie z_centrada (ID 3)
 ? series z_esc = z_centrada / sd(z_centrada)
 Se ha generado la serie z_esc (ID 4)
 # Transformamos para que x tenga media 20 y sd 15 exactamente
-? series x = 20 + 15 * z_esc
+? series x = 
 Se ha generado la serie x (ID 5)
 ? summary x
 
